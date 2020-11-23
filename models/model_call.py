@@ -2,6 +2,7 @@
 import os
 import pandas as pd
 import tensorflow as tf
+from tensorflow.keras.models import load_model
 #os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 from tensorflow import keras
 print("imports")
@@ -10,8 +11,7 @@ def run_model(bath, bed, sqft, zip):
     
     # Import necessary files
     census_df = pd.read_csv("../Resources/acs5_2018.csv")
-    model = tf.keras.models.load_model("housing_model.h5")
-    model = tf.keras.models.load_model("housing_model.h5")
+    model = tf.keras.models.load_model("housing_model.h5", compile = False)
     mean = pd.read_csv("mean_norm.csv")
     std = pd.read_csv("std_norm.csv")
 
