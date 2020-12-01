@@ -46,5 +46,5 @@ https://homeprice-prediction.herokuapp.com/model
 
 ## Sources
 https://www.census.gov/data/developers/data-sets/acs-5year/2018.html  
-https://zillow.com
+https://zillow.com  
 https://simplemaps.com/data/us-zips
