@@ -42,7 +42,7 @@ the Resources folder will be necessary. Similarly, to ensure that the Zillow web
 The machine learning program did give promising results. Even though the machine was trained on data ranging from condos to mansions, the mean absolute error was about $58000, and the mean percent difference was about 18%. The varied nature of the data undoubtedly contributed to this, so a model with a narrower scope, such as one focusing only on family houses, may increase the accuracy of the results. A correlation matrix give credence to the inclusion of census data by zip code in the model. In particular, categories related to income and education attainment were somewhat predictive.  However, as income and educational attainment are shown in the same matrix to be heavily correlated, one of the categories may be unnecessary in the model. Educational attainment being the more complicated would be the first candidate to cut. Unsurprisingly however, the size of the house and the number of bedrooms and bathrooms were the most predictive. Information concerning the model and the housing data was then deployed to heroku in the url contained in the deployment section below.
 
 ## Deployment
-https://homeprice-prediction.herokuapp.com/model
+https://homeprice-prediction.herokuapp.com/
 
 ## Sources
 https://www.census.gov/data/developers/data-sets/acs-5year/2018.html  
