@@ -1,4 +1,4 @@
-# Houses Prices Machine Learning
+# Housing Prices Machine Learning
 A project to use machine learning to better predict housing prices.
 
 ## Table of Contents
