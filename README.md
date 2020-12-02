@@ -48,3 +48,4 @@ https://homeprice-prediction.herokuapp.com/
 https://www.census.gov/data/developers/data-sets/acs-5year/2018.html  
 https://zillow.com  
 https://simplemaps.com/data/us-zips
+https://towardsdatascience.com/keras-101-a-simple-and-interpretable-neural-network-model-for-house-pricing-regression-31b1a77f05ae
